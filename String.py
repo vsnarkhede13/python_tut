@@ -1,0 +1,10 @@
+first_name = raw_input("Enter first name: ")
+last_name = raw_input("Enter last name: ")
+age = int(input("Enter your age: "))
+salary = int(input("Enter your salary: "))
+
+print(first_name +" " + last_name)
+print("Joined strings")
+print(first_name[3] +","+ first_name[-3])
+print("letters at position 3 & -3")
+print(bin(age)  + " (Age), " + bin(salary)+" (Salary)")
