@@ -1,5 +1,5 @@
-Num=int(input("Enter no:"))
+No=int(input("Enter no:"))
 sum=0
-for x in range(1,Num+1):
+for x in range(1,No+1):
   sum=sum+x
-print("sum of natural no upto ",Num,"is",sum)  
+print("sum of natural no is",sum)  
