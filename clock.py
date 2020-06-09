@@ -11,5 +11,6 @@ if((minute/5)>6):
 else:
     angle=abs((hour-(12-float((minute/5))))*30)
 print("angle:",angle)    
+print("This is test file and checking git changes")
   
    
